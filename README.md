@@ -1,6 +1,4 @@
 
- 
-
 HOST: 127.0.0.1:4000
 
 # Campus API
@@ -21,9 +19,9 @@ object containing the followings:
 + Request (application/json)
     
         {
-            "Name": "watson",
-            "Roll": "1810976101",
-	    "phone": "7353737"
+            "Name": "khan",
+            "Roll": "1810976111",
+	    "phone": "54"
 HOST: 127.0.0.1:4000
 
 
@@ -41,16 +39,16 @@ This action will show this list of the users that the database contains.
                     "users": [
                         {
                             "_id": "5e0c7abdbeae0b2f386e206d",
-                            "Name": "Shahriar Rahman Shaon",
-                            "Roll": "1810976126",
-			    "phone":"0393838"
+                            "Name": "shoiab",
+                            "Roll": "18106755",
+			    "phone":"8766"
                             "__v": 0
                         },
                         {
                             "_id": "5e0c7b04beae0b2f386e206e",
-                            "Name": "watson",
-                            "Roll": "1810976101",
-			    "phone": "7353737"
+                            "Name": "khan",
+                            "Roll": "1810976111",
+			    "phone": "54"
                             "__v": 0
                         }
                     ]
@@ -72,9 +70,9 @@ Using the id: 5e0c7b04beae0b2f386e206e
 + Request (application/json)
 
         {
-            "Name": "watson",
-            "Roll": "1810976101",
-	    "phone" : "7353737"
+            "Name": "khan",
+            "Roll": "1810976111",
+	    "phone" : "54"
         }
 
 + Response 200 (application/json)
@@ -90,9 +88,9 @@ Using the id: 5e0c7b04beae0b2f386e206e
                 "data": {
                     "newUser": {
                         "_id": "5e0c7b04beae0b2f386e206e",
-                        "Name": "watson",
-                        "Roll": "1810976101",
-			"phone": "7353737"
+                        "Name": "khan",
+                        "Roll": "1810976111",
+			"phone": "54"
                         "__v": 0
                     }
                 }
@@ -109,9 +107,9 @@ Using the id: 5e0c7b04beae0b2f386e206e
 + Request (application/json)
 
         {
-            "Name": "watson",
-            "Roll": "1810976101",
-	    "phone" : "7353737"
+            "Name": "khan",
+            "Roll": "1810976111",
+	    "phone" : "54"
         }
 
 
